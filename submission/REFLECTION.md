@@ -1,8 +1,8 @@
 # Reflection — Lab 19
 
-**Tên:** _<Họ Tên>_
-**Cohort:** _<A20-K1 / A20-K2 / ...>_
-**Path đã chạy:** _<lite | docker | both>_
+**Tên:** Bùi Duy Hải    
+**Cohort:** A20-K3  
+**Path đã chạy:** Lite
 
 ---
 
@@ -12,17 +12,21 @@
 > `paraphrase` / `mixed`), và tại sao? Khi nào bạn **không** dùng hybrid
 > (i.e. khi nào pure BM25 hoặc pure vector là lựa chọn đúng)?
 
-_Answer here._
+exact: BM25 và hybrid ngang nhau vì có từ khóa 
+paraphrase: BM25 tốt hơn vì model embedding tiếng Anh   
+mixed: hybrid tốt hơn vì kết hợp keywork và semantic    
+
+Không dùng hybrid khi cần latency thấp và query có từ khóa rõ ràng
 
 ---
 
 ## Điều ngạc nhiên nhất khi làm lab này
 
-_(Optional, 1–2 câu)_
+Khó chỉnh hybrid P99 < 50ms
 
 ---
 
 ## Bonus challenge
 
-- [ ] Đã làm bonus (xem `bonus/`)
+- [x] Đã làm bonus (xem `bonus/`)
 - [ ] Pair work với: _<tên đồng đội nếu có>_
